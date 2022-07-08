@@ -1,5 +1,8 @@
 <template>
-  <header><TheHeader /></header>
-  <slot />
-  <footer>Page Footer</footer>
+  <div>
+    <header><TheHeader /></header>
+    <slot />
+    <div class="divider"></div>
+    <footer><TheFooter /></footer>
+  </div>
 </template>
